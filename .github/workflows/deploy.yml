@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Provide image tag"
+        description: "Provide image tag1"
         required: true
         default: "latest"
         type: "string"
