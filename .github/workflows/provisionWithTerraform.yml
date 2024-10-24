@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       hubEnv:
-        description: Select target hub and stage
+        description: Select target hub and stage1
         required: true
         type: choice
         options:
