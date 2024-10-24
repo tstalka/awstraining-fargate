@@ -6,7 +6,7 @@ on:
       hubEnv:
         required: true
         type: "string"
-    # Map the workflow outputs to job outputs
+    # Map the workflow outputs to job outputs1
     outputs:
       HUB:
         value: ${{ jobs.datacenterMap.outputs.HUB }}
